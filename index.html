@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Student Portfolio Page</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About me</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul> 
+    
+    </header>
+
+
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Alex Lowther</h1>
+            <h2>Software Developer</h2>
+            <a href="/Users/Alex/Desktop/mySite/rez/lowther_alex_resume.pdf" download class="btn-rounded-white">Download Resume</a>
+            <ul class="sociallist">
+                
+                <li><a href="https://github.com/alexander-lowther"><i class="fa fa-github" target="_blank"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/alexander-lowther-8b6502175/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="mailto: alowther12@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                <li></li>
+                <li></li>
+               </ul>
+        </div>
+        <!-- End #lead-content -->
+        <div id="lead-overlay"></div>
+        <!-- End #lead-down -->
+    </div>
+
+
+    <!-- End #lead -->
+    <div id="projects" class="background-alt">
+        <h2 class="heading">School Projects</h2>
+        <div class="proj-container">
+        <div class="container1">
+            <ul class="left-info1">
+                   <li>Windows Process Scheduler</li>
+               <li>
+                    A C program that launches processes locally & schedules each instance to the users desired order.
+                       We can display which processor is being used in real time, as well as choose which scheduling algorithm to use.
+                       This is done using Windows API's. 
+                </li>
+            </ul>
+            <div class="video1">
+                <video id="v1" controls>
+                    <source src="vids/DemoScheduler.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="container2">
+            <ul class="left-info2">
+                   <li> Photoshopping the Hard Way</li>
+                   <li>"Draw" a checkerboard background. Flip, rotate, and blend images together using only Java & the images given.
+                       This is done by mathematically interpreting the added images pixels locations relative to our Framebuffer.
+                   </li>
+            </ul>
+            <div class="video2">
+                <video id="v2" controls>
+                    <source src="vids/hw1viddemo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="container3">
+            <ul class="left-info3">
+              <li>Custom Windows Launcher</li>
+               <li> A program written in C that prompts the user with a list of Windows programs to launch.
+                It can be used to launch your favorite and most useful programs faster. Again using API's to 
+                aquire handles to each process.</li>
+            </ul>
+            <div class="video3">
+                <video id="v3" controls>
+                    <source src="vids/LauncherDemo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <div class="container4">
+            <ul class="left-info4">
+                   <li>Jave GUI Basics</li>
+                   <li> This program creates shapes that can simply be dragged with mouse input. 
+                       Simultaneously, we use the inheritance of MouseListener to collect movement data and display 
+                       it to the user.     
+                   </li>
+                </ul>
+            <div class="video4">
+                <video id="v4" controls>
+                    <source src="vids/DragDemo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Purdue University Northwest</h3>
+            <span class="education-date">Sept 2015 - May 2022</span>
+            <h4>Bachelor of Science in Computer Science (Graduation May 2022)</h4>
+            <p>
+                Spent two years studying Business Management before pursuing a Bachelore's in Computer Science.
+                Minor in Applied Mathematics.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <!-- End .education-block -->
+    </div>
+
+    <!-- End #education -->
+    <div id="about">
+            <h2 class="heading">About Me</h2>
+            <div class="aboutcont">
+                    <p>
+                        Eager to begin my career in software developement and contribute to a meaningful cause 
+                        with like minded individuals. I am a team work driven, relentless learner that believes in myself,
+                        as well as the people around me. I love solving problems in a creative fashion, and aquiring knowledge 
+                        from innovative leaders and peers. 
+                    </p>
+                    <p>
+                        I consider myself lucky to have such amazing friends and family. Most of my free time is spent with them.
+                        I enjoy playing disc golf, poker, and running. I am fascinated by economics, astronomy, and psychology.
+                    </p>
+            </div>
+    </div>
+    <!-- End #about -->
+
+    <!-- End #experience -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Sql</li>
+            <li>Swift</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <!-- End #contact -->
+    <footer>
+        <div id="contact">
+        <div class="footer-content">
+            <!--add all information -->
+            <h3>Thank you for visiting</h3>
+            <p>Feel free to email at <a href="mailto: alowther12@gmail.com">alowther12@gmail.com </a>. Call or text
+           <a href="tel:219-929-7661"> 1(219)-929-7661 </a> anytime :)</p>
+        <ul class="socials">
+            <li><a href="https://github.com/alexander-lowther"><i class="fa fa-github" target="_blank"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/alexander-lowther-8b6502175/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="mailto: alowther12@gmail.com"><i class="fa fa-envelope"></i></a></li>
+            <li></li>
+            <li></li>
+         </ul>
+        
+    <div class="footer-bottom">
+            <!-- add all information -->
+            <p>copyright &copy;2021 <a href="mailto: alowther12@gmail.com">Alexander Lowther</a> </p>
+         <div class="footer-menu">
+            <ul class="f-menu">
+               <li><a href="/Users/Alex/Desktop/mySite/rez/lowther_alex_resume.pdf" download> Download Resume</a></li>
+            </ul>
+           </div>
+        </div>
+    </div>
+</div>
+    </footer>
+  
+    <!-- End footer -->
+    <script src=/Users/Alex/Desktop/mySite/script.js></script>
+</body>
+
+</html>
