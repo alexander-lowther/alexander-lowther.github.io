@@ -32,5 +32,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	document.getElementById("v4").addEventListener("mouseleave", function() {
 		this.pause();
 	});
+	document.getElementById("v5").addEventListener("mouseover", function() {
+	this.play();
+	});
+	document.getElementById("v5").addEventListener("mouseleave", function() {
+	this.pause();
+});
 	
 });
