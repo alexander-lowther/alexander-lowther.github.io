@@ -407,6 +407,38 @@ header.sticky{
      margin-top: 2%;
      text-align:center;
 }
+.video6 {
+    margin-left: 50%;   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#v6 {
+    width: 100%;
+    max-height: 450px;  
+}
+
+.left-info6{
+    width: 50%; height: 100%; float: left; 
+    list-style-type:none;
+}
+.left-info6 > :nth-child(1){
+    font-size:1.25em;
+    font-weight: 400;
+    color:#374054;
+    margin-top: 6%;
+}
+.left-info6 > :nth-child(2){
+    font-weight:400;
+    /* color:#374054;*/
+     color:#74808a;
+     padding-left: 10%;
+     padding-right: 10%;
+     text-align: left;
+     margin-top: 2%;
+     text-align:center;
+}
 #about {
     background: #f2f2f5;  
     padding:15px 15px;
